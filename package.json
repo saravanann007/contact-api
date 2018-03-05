@@ -1,0 +1,12 @@
+{
+  "name": "Conatact API",
+  "version": "1.0/.0",
+  "author": {
+    "name": "Saravanan Naganathan",
+    "email": "saravanan.n009@gmail.com"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "request-promise": "^4.2.2"
+  }
+}
