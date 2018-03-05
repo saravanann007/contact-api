@@ -1,12 +1,20 @@
 {
-  "name": "Conatact API",
-  "version": "1.0/.0",
-  "author": {
-    "name": "Saravanan Naganathan",
-    "email": "saravanan.n009@gmail.com"
+    "name": "ConatactAPI",
+  "description":"End point to fetch contact information based on the given email Address",
+    "version": "1.0.0",
+    "author": {
+      "name": "Saravanan Naganathan",
+      "email": "saravanan.n009@gmail.com"
+    },
+    "dependencies": {
+      "express": "^4.16.2",
+       "request":"^2.83.0",
+      "request-promise": "^4.2.2"
+    },
+  "repository":{
+      "type":"git",
+           "url":"https://github.com/saravanann007/contact-api.git"
   },
-  "dependencies": {
-    "express": "^4.16.2",
-    "request-promise": "^4.2.2"
+  "license":"Apache-2.0"
+   
   }
-}
